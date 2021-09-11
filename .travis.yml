@@ -17,5 +17,5 @@ deploy:
   bucket_path: "EBApptest" ### S3 folder name under S3 bucket above
   on:
     branch: main
-  access_key_id: "AKIAQKNGEWRCCH727754"
-  secret_access_key: "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"
+  access_key_id: "$AWS_ACCESS_KEY"
+  secret_access_key: "$AWS_SECRET_KEY"
